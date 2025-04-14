@@ -1,6 +1,7 @@
 import Banner from "components/Banner";
 import Menu from "components/Menu";
 import Posts from "components/Posts";
+import Rodape from "components/Rodape";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <Banner />
         <Posts />
       </main>
-
+      <Rodape />
     </BrowserRouter>
   );
 }
