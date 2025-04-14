@@ -13,7 +13,6 @@ export default function Banner() {
                     Sou um desenvolvedor web em início de carreira, com foco em tecnologias modernas como HTML, CSS, JavaScript e React. Estou em constante aprendizado e busco criar interfaces limpas, funcionais e com uma boa experiência para o usuário. Tenho grande interesse em desenvolvimento front-end e estou construindo meu portfólio para atuar como freelancer e evoluir cada vez mais na área.
                 </p>
             </div>
-
             <div className={styles.imagens}>
                 <img
                     className={styles.circuloColorido}
@@ -24,7 +23,6 @@ export default function Banner() {
                     src={foto}
                     alt='minha foto'
                 />
-
             </div>
         </div>
     )
