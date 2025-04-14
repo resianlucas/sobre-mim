@@ -7,8 +7,10 @@ function App() {
   return (
     <BrowserRouter>
       <Menu />
-      <Banner />
-      <Posts />
+      <main>
+        <Banner />
+        <Posts />
+      </main>
 
     </BrowserRouter>
   );

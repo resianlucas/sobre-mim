@@ -1,10 +1,14 @@
 import PostAux from 'components/PostAux';
 import styles from './Posts.module.css';
+
 import posts from 'json/tecs.json'; 
 
 export default function Posts () {
     return (
         <div>
+            <h1 className={styles.titulo}>
+                Minhas Tecnologias
+            </h1>
             <ul className={styles.posts}>
                 {posts.map((post) => (
                     <li key={post.id}>
